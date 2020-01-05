@@ -9,6 +9,6 @@ LABEL "repository"="https://github.com/edgarrc/action-7z"
 LABEL "homepage"="https://github.com/edgarrc/action-7z"
 LABEL "version"="1.0.0"
 
-RUN apt-get update && apt-get install -y p7zip-full p7zip-rar
+RUN apt-get update && apt-get install -y p7zip-full
 RUN	apt-get clean -y
 RUN rm -rf /var/lib/apt/lists/*
