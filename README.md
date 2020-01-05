@@ -14,7 +14,7 @@ a is for Add
 
 -t7z is the format
 
--mx=0 is the method with x setting the level of compression
+-mx=9 is the method with x setting the level of compression
 
 ```yaml
 - uses: edgarrc/action-7zip@v1.0.4
