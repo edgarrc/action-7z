@@ -3,7 +3,7 @@ author: 'edgarrc'
 description: 'Create a 7zip file containing specific files from your repository'
 branding:
   icon: 'folder-plus'  
-  color: 'gray-dark'
+  color: 'green'
 runs:
   using: 'docker'
   image: 'Dockerfile'
