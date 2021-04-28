@@ -17,7 +17,7 @@ a is for Add
 -mx=9 is the method with x setting the level of compression
 
 ```yaml
-- uses: edgarrc/action-7z@v1.0.4
+- uses: edgarrc/action-7z@v1
   with:
     args: 7z a -t7z -mx=9 build.7z ./build/
 ```
