@@ -1,4 +1,4 @@
-FROM debian:stable-slim
+FROM alpine:3
 
 LABEL "com.github.actions.name"="Action 7z"
 LABEL "com.github.actions.description"="Create a 7zip file containing specific files from your repository"
@@ -9,6 +9,5 @@ LABEL "repository"="https://github.com/edgarrc/action-7z"
 LABEL "homepage"="https://github.com/edgarrc/action-7z"
 LABEL "version"="1.0.0"
 
-RUN apt-get update && apt-get install -y p7zip-full
-RUN	apt-get clean -y
-RUN rm -rf /var/lib/apt/lists/*
+RUN apk --update --no-cache add p7zip
+RUN	rm -rf /var/cache/apk/* /tmp/*
