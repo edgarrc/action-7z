@@ -2,9 +2,10 @@
 
 This GitHub action exposes the 7zip command for use in archiving.
 
-## 7zip commands
+## 7zip references
 
-[7z commands manual](http://7zip.bugaco.com/7zip/MANUAL/commands/index.htm)
+- [https://documentation.help/7-Zip/start.htm](https://documentation.help/7-Zip/start.htm)
+- [http://7zip.bugaco.com/7zip/MANUAL/commands/index.htm](http://7zip.bugaco.com/7zip/MANUAL/commands/index.htm)
 
 ## Usage
 
